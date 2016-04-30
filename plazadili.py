@@ -27,4 +27,4 @@ if __name__ == "__main__":
         "git push plaza data"
     ])
 
-    map(subprocess.call, commands)
+    all(map(subprocess.call, commands))
