@@ -15,5 +15,5 @@ topics = ("#plazadili", "plazadili")
 with open(datetime.datetime.now().isoformat() + ".json", "w+") as jsn:
     json.dump(
         {"data": [{"user": tweet.user.screen_name, "text": tweet.text} for tweet in api.search(",".join(topics))]},
-        jsn, ensure_ascii=False
+        jsn, ensure_ascii=False, indent=4
     )
