@@ -2,7 +2,7 @@ import os
 import subprocess
 from datetime import datetime
 
-from lat_plaza import get_statuses
+from tivit import get_statuses
 from settings import BASE_DIR
 
 get_statuses()
