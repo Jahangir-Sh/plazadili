@@ -8,7 +8,11 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+<<<<<<< HEAD
 .venv/
+=======
+env/
+>>>>>>> 10265cec6ef6c764bb034bf7aa745f80fae3ccb6
 build/
 develop-eggs/
 dist/
@@ -60,6 +64,7 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+<<<<<<< HEAD
 
 # IDEs
 .idea
